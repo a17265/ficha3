@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercício 3-4</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form action="agradecimentos.html">
+		<center>
+			<table width="500px"> 
+				<tr>
+					<td colspan="4" class="title">Ficha de Inscrição</td>
+				</tr>
+
+				<tr>
+					<td colspan="4"><br></td>
+				</tr>
+
+				<tr>
+					<td colspan="1">
+						<span>Nome:</span>
+					</td>
+					<td  colspan="3">
+						<input maxlength="65" class="lmiyt aazx" type="text" name="nome">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<span>Nº de identificação fiscal:</span>
+						<input maxlength="15" class="lmiyt" type="text" name="identificacao">
+					</td>
+					<td colspan="2">
+						<span>Nº de identificação fiscal:</span>
+						<input maxlength="15" class="lmiyt" type="text" name="identificacao">
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<span>Endereço:</span>
+					</td>
+					<td colspan="3">
+						<input maxlength="65" class="lmiyt aazx" type="text" name="nome">
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<span>Sexo:</span>
+					</td>
+					<td>
+						<select>
+							<option>Masculino</option>
+							<option>Feminino</option>
+						</select>
+					</td>
+					<td>
+						<span>Data de nascimento:</span>
+					</td>
+					<td>
+						<input class="lmiyt aazx" type="date" name="data" placeholder="dd/mm/aaaa">
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<span>Situação civil</span>
+					</td>
+
+					<td>
+						<label>
+							<input type="radio" id="solteiro" name="estado" value="solteiro"/>
+							<span>Solteiro(a)</span>
+						</label>
+					</td>
+					<td>
+						<label>
+							<input type="radio" name="estado" value="viuvo"/>
+							<span>Viúvo(a)</span>
+						</label>
+					</td>
+					<td>
+					
+						<label>
+							<input type="radio" name="estado" value="casado"/>
+							<span>Casado(a)</span>
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="submit" value="Enviar dados">
+					</td>
+					<td colspan="2">
+						<input type="reset" value="Limpar dados">
+					</td>
+				</tr>
+			</table>
+		</center>
+	</form>
+	<style type="text/css">
+	*{
+		font-family: "Arial";
+		font-size: 17px;
+		color: black;
+	}
+	.title{
+		font-size: 20px;
+		text-align: center;
+	}
+	table, td, th{
+		position: relative;
+		padding: 2px;
+	}
+	.aos{
+		text-align: right;
+	}
+	input{
+		border: solid 1px #333; 
+	}
+	span{
+		font-size: 0.9em;
+	}
+	.lmiyt{
+		width: auto;
+		width: 100%;
+		float: right;
+		outline: none;
+		box-sizing: border-box;
+	}
+	.aazx{
+		width: 100%;
+	}
+	</style>
+</body>
+</html>
